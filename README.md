@@ -45,14 +45,12 @@ Persistence (Save/Load System)-
 data/2048_save.txt  
 
 • The saved data includes:  
-board, score, moves  
+board, score, moves, RNG state 
 
 • High score is saved in:  
 data/highscore.txt  
 
 • Both files are created automatically if missing.  
-
-• It also saves/loads RNG state for reproducibility
 
 Gameplay Logic Summary-  
 ---------------------
